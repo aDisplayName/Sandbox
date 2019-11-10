@@ -21,4 +21,11 @@ path: a/b.txt IsRooted False; IsFullyQualified False
 
 __On Windows 10__
 
+```
+path: C:/a/b.txt IsRooted True; IsFullyQualified True
+path: C:a/b.txt IsRooted True; IsFullyQualified False
+path: /a/b.txt IsRooted True; IsFullyQualified False
+path: a/b.txt IsRooted False; IsFullyQualified False
+```
+
 
